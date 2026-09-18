@@ -1,5 +1,7 @@
 # EU Fuel Prices for Domoticz — v1.0.0
 
+The country can be selected from the plugin.
+
 A Python 3 plugin that automatically creates exactly two Custom sensors:
 
 | Unit | Sensor | Unit of measurement |
