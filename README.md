@@ -64,21 +64,6 @@ the source. No pip packages, requests or other external Python packages are need
 You can disable acceptance of new devices again after both sensors are created.
 Do not create Dummy sensors manually or select kWh units or a Counter type.
 
-## Updating from the Romanian edition
-
-Replace `plugin.py` in the existing plugin directory and restart Domoticz.
-Do not delete the hardware instance or its sensors. The plugin key, country
-codes, device IDs and unit numbers are unchanged, so existing sensors and
-history are retained.
-
-Default sensor names created by the Romanian edition are automatically translated
-on startup, for example `Motorina - Romania` becomes `Diesel - Romania` and
-`Benzina - Romania` becomes `Petrol - Romania`. Country names are translated too.
-Device IDs, IDX values and history remain unchanged. Names you customized yourself
-are preserved; you can change them using the sensor's Edit action.
-You may also rename the hardware instance to `Fuel Prices Romania`.
-New installations create sensor names in English automatically.
-
 ## Multiple countries and changing country
 
 Add one hardware instance per country. Each creates two sensors with separate
