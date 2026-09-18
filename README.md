@@ -117,23 +117,6 @@ Periodic sensor updates stop after a failed fetch until retrieval succeeds again
 - The API is an independent service. Changes to its response format or its
   availability may require a plugin update.
 
-## Testing
-
-**Live price retrieval and updates of both sensors have been confirmed in a real
-Domoticz installation by the plugin maintainer.** The displayed unit is €/l.
-Graph display over accumulated history has not yet been separately confirmed.
-
-Automated tests use a simulated Domoticz module and cover all 27 country codes,
-invalid prices, expired data, creation of both sensors, retention of prices after
-errors, recovery, repeated recording of unchanged prices, default sensor name
-migration and history protection when changing countries. These tests do not
-imply that every country has been individually tested in a running Domoticz instance.
-
-To run the included tests from the plugin directory:
-
-```bash
-python3 -m unittest discover -s tests -v
-```
 
 Custom Sensor reference:
 https://wiki.domoticz.com/Developing_a_Python_plugin
