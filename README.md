@@ -23,8 +23,7 @@ The API is free and requires no account or API key.
 Attribution: EuroOilWatch / EC Weekly Oil Bulletin.
 
 Prices are WEEKLY national averages for Euro 95 petrol and diesel, in €/l,
-not current prices at individual filling stations. Romania is also shown in
-€/l, not RON/l. No currency conversion is performed. Coverage is EU-27,
+not current prices at individual filling stations. No currency conversion is performed. Coverage is EU-27,
 not all of Europe: the UK, Switzerland, Norway and other non-EU countries
 are not available through this endpoint.
 
